@@ -3,19 +3,14 @@
 Make the sun move accross the sky and city skyline light up. Travel to differnt places around the world.
 
 --- print-only ---
-
 ![ALT TEXT](images/IMAGE.png)
-
 --- /print-only ---
 
 --- no-print ---
-
 [Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
 --- /no-print ---
 
 --- no-print ---
-
 Video embed
 
 <video width="640" height="360" controls>
@@ -34,7 +29,6 @@ Scratch embed
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1200033507/?autostart=false" frameborder="0"></iframe>
 </div>
-
 --- /no-print ---
 
 ### You will need:
