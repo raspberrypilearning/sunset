@@ -1,6 +1,4 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
 A brief description - one or two sentences. 
 
