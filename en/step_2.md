@@ -20,7 +20,7 @@ https://youtu.be/
 </html>
 
 --- task ---
-Open the [starter project](http://rpf.io/sunset-go)
+Open the [starter project](http://rpf.io/sunset-go){:target="_blank"}.
 --- /task ---
 
 
@@ -60,6 +60,9 @@ when green flag clicked
 forever 
 +go to x: () y: ()
 ```
+--- /task ---
+
+--- task ---
 The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3motion"}. In the second drag in a `minus operator` {:class="block3operators"}
 
 ```blocks3
@@ -70,15 +73,14 @@ go to x: (mouse x) y: (()-())
 --- /task ---
 
 
-**Tip:** hover over just below the empty field to drop the blocks in
+**Tip:** drop the blocks in just below the empty field
 
-![ALT TEXT](images/step1-1.gif)
+![ALT TEXT](images/mousex.gif)
 
 
 --- task ---
 Test your code - clcik the green flag and move your mouse over the stage - the sun should move.
 --- /task ---
-
 
 
 --- task ---
@@ -87,7 +89,7 @@ In the `minus operator` {:class="block3operators"} type in 200 to the first fiel
 ```blocks3
 when green flag clicked
 forever 
-go to x: (mouse x) y: ((200)-(abs of()))
+go to x: (mouse x) y: ((200)-([abs v] of()))
 ```
 --- /task ---
 
@@ -98,12 +100,12 @@ Drag and drop a `mouse x`{:class="block3motion"} into the `abs of`{:class="block
 ```blocks3
 when green flag clicked
 forever 
-go to x: (mouse x) y: ((200)-(abs of(mouse x)))
+go to x: (mouse x) y: ((200)-([absv] of(mouse x)))
 ```
 --- /task ---
 
 
 
 --- task ---
-test your code again - the sun should start low, and then rise and fall in a arc shape.
+Test your code again - the sun should start low, and then rise and fall in a arc shape.
 --- /task ---
