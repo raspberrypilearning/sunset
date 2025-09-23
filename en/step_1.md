@@ -15,15 +15,12 @@ Move the mouse, press space, up and down.
 </div>
 --- /task ---
 
-
-Follow along the project on our [YouTube](10) playlist!
+<p Follow along the project on our [YouTube](10) playlist!
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
 Print our NEW [visual-first](10) step-by-step guide!
 </p>
-
---- /no-print ---
 
 
