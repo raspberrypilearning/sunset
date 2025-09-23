@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Move the sun accross the sky
+Make the sun move across the sky
 </div>
 <div>
 
@@ -20,18 +20,17 @@ https://youtu.be/
 </html>
 
 --- task ---
-Open the starter project ADD LINK rpf.io/sunset-go
+Open the [starter project](http://rpf.io/sunset-go)
 --- /task ---
 
 
 --- task ---
-Select the Sun sprite ![ALT TEXT](images/sun-sprite.png)
+Select the **Sun** sprite ![ALT TEXT](images/sun-sprite.png)
 --- /task ---
 
 
-
 --- task ---
-Open the `Events`{:class="block3events"} menu and drag the `When flag clicked`{:class="block3events"} block to the Code area.
+From the `Events`{:class="block3events"} block menu, drag the `When flag clicked`{:class="block3events"} block to the Code area.
 
 ```blocks3
 +when green flag clicked

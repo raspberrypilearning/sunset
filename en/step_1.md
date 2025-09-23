@@ -1,30 +1,29 @@
 ## What you will make
 
-Make the sun move accross the sky and city skyline light up. Travel to differnt places around the world.
+Create a city scene!
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+--- task ---
+### Play ▶️
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
+Move the mouse, press space, up and down. 
 
---- no-print ---
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+</div>
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1200033507/?autostart=false" frameborder="0"></iframe>
+</div>
+</div>
+--- /task ---
+
+
+Follow along the project on our [YouTube](10) playlist!
+</p>
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+
+Print our NEW [visual-first](10) step-by-step guide!
+</p>
 
 --- /no-print ---
 
-Video embed
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
 
-
-
-Try it out here
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1200033507/?autostart=false" frameborder="0"></iframe>
-</div>
-Press ADD KEY TEXT
-
-### You will need:
-- Scratch starter project
-- what
-- else?
