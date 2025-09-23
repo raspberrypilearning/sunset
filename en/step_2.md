@@ -25,7 +25,7 @@ Open the starter project ADD LINK rpf.io/sunset-go
 
 
 --- task ---
-Select the Sun sprite ![ALT TEXT](images/1-2-ol.png)
+Select the Sun sprite ![ALT TEXT](images/sun-sprite.png)
 --- /task ---
 
 
@@ -49,41 +49,50 @@ The blocks will snap together.
 --- /task ---
 
 --- task ---
-From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `forever`{:class="block3control"} block. 
+From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `Forever`{:class="block3control"} block. 
 
 ```blocks3
 when green flag clicked
 forever 
 +go to x: () y: ()
 ```
+The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3motion"}. In the second drag in a `minus operator` {:class="block3operators"}
+
+```blocks3
+when green flag clicked
+forever 
+go to x: (mouse x) y: (()-())
+```
 --- /task ---
 
-
-
---- task ---
-The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a mouse x. In the second drag in a divde operator
+**Tip:** hover over just below the empty field to drop the blocks in
 
 ![ALT TEXT](images/step1-1.gif)
+
+--- task ---
+Test your code - clcik the green flag and move your mouse over the stage - the sun should move.
 --- /task ---
 
+--- task ---
+In the `minus operator` {:class="block3operators"} type in 200 to the first field, and drag in an `abs of`{:class="block3operators"} in the second.
+
+```blocks3
+when green flag clicked
+forever 
+go to x: (mouse x) y: ((200)-(abs of()))
+```
+--- /task ---
 
 
 --- task ---
-In the y BOX?? input a minus operator, and add 200 into the first box
+Drag and drop a `mouse x`{:class="block3motion"} into the `abs of`{:class="block3operators"} block.
+```blocks3
+when green flag clicked
+forever 
+go to x: (mouse x) y: ((200)-(abs of(mouse x)))
+```
 --- /task ---
-
-![ALT TEXT](images/1-5-ol.png)
-
---- task ---
-drag in a abs of for the second box, and use the mouse x. This moves the mouse in an arc accross the sky.
---- /task ---
-
-![ALT TEXT](images/1-7-nol.png)
-
 
 --- task ---
 test your code again - the sun should start low, and then rise and fall in a arc shape.
 --- /task ---
-
-
-Test the code by pressing the green flag - the sun should follow your mouse movment from side to side
