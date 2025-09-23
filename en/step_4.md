@@ -22,7 +22,7 @@ Make the sky change colour
 --- task ---
 Select the backdrop from the stage pane. 
 
-![ALT TEXT](images/mousex.gif)
+![ALT TEXT](images/backdrop.png)
 --- /task ---
 
 --- task ---
