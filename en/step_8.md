@@ -1,11 +1,46 @@
 ## Travel the world
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Move the sun accross the sky
+</div>
+<div>
+
+![ADD](images/ADD.png){:width="300px"}
+
+</div>
+</div>
+
+<html>
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 20px; box-shadow: 0 0 15px #3fb654; overflow: hidden;">
+<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/wZU1QGnKG8c?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+</iframe>
+</div><br>
+</html>
+
 --- task ---
-Add the another event in the city sprite and the following code
+Add the another when key pressed event, and choose up arrow on the menu
+
++when [up arrow v] key pressed
 --- /task ---
 
-![ALT TEXT](images/7-4-nol.png)
+add gif
 
 --- task ---
-the random will switch to one of the 52 cosutumes - to see these look in the costume tab
+add switch costume from the looks menu. Insert a pick random number into the empty field
+
+when [up arrow v] key pressed
++switch costume to (pick random (1) to (52))
+--- /task---
+
+--- task ---
+Change the numbers so they are between 1 and 52. 
 --- /task ---
+
+
+--- task ---
+Test out the code. the random will switch to one of the 52 cosutumes 
+--- /task ---
+
+TIP: To see these look in the costume tab
+ADD GIF

@@ -13,6 +13,7 @@ steps:
   - title: Which city?
   - title: Travel the world
   - title: Where am I?
+  - title: Visual first
   - title: Challenge
     challenge: true
     completion:
