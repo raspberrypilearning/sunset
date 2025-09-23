@@ -42,6 +42,7 @@ when green flag clicked
 end
 
 --- /task ---
+
 --- task ---
 Add the set effect block and selcet bringness from the menu. Type 100 to the field. Add another set effect block and choose color fromt the menu. Type 255 to the field.
 
