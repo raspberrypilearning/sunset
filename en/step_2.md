@@ -63,7 +63,7 @@ forever
 --- /task ---
 
 --- task ---
-The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3motion"}. In the second drag in a `minus operator` {:class="block3operators"}
+The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3sensing"}. In the second drag in a `minus operator`{:class="block3operators"}
 
 ```blocks3
 when green flag clicked
@@ -79,7 +79,7 @@ go to x: (mouse x) y: (()-())
 
 
 --- task ---
-In the `minus operator` {:class="block3operators"} type in 200 to the first field, and drag in an `abs of`{:class="block3operators"} in the second.
+In the `minus operator`{:class="block3operator"} type in 200 to the first field, and drag in an `abs of`{:class="block3operators"} in the second.
 
 ```blocks3
 when green flag clicked
