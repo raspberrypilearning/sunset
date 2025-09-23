@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Move the sun accross the sky
+Move the sun accross the sky with your mouse.
 </div>
 <div>
 
-![The Space backdrop with the Pico sprite.](images/backdrop-step.png){:width="300px"}
+![ADD](images/move-sun-step.png){:width="300px"}
 
 </div>
 </div>
@@ -20,18 +20,50 @@ Move the sun accross the sky
 
 
 --- task ---
-Open the starter project 
+Open the starter project ADD LINK rpf.io/sunset-go
 --- /task ---
 
 
 --- task ---
-In the Sun sprite add the following code to change the x movemnt of the sun sprite with your mouse.
+Select the Sun sprite ![ALT TEXT](images/1-2-ol.png)
 --- /task ---
 
-![ALT TEXT](images/1-2-ol.png)
 
 --- task ---
-Test the code by pressing the green flag - the sun should follow your mouse movment from side to side
+Open the `Events`{:class="block3events"} menu and drag the `When flag clicked`{:class="block3events"} block to the Code area.
+
+```blocks3
++when green flag clicked
+```
+--- /task ---
+
+--- task ---
+From the `Control`{:class="block3control"} menu drag a `forever`{:class="block3control"} block under the `when this sprite clicked`{:class="block3events"} block. 
+
+```blocks3
+when green flag clicked
++forever 
+```
+
+The blocks will snap together.
+--- /task ---
+
+--- task ---
+From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `forever`{:class="block3control"} block. 
+
+```blocks3
+when green flag clicked
+forever 
++go to x: () y: ()
+```
+--- /task ---
+
+
+
+--- task ---
+The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a mouse x. In the second drag in a divde operator
+
+![ALT TEXT](images/step1-1.gif)
 --- /task ---
 
 
@@ -52,3 +84,6 @@ drag in a abs of for the second box, and use the mouse x. This moves the mouse i
 --- task ---
 test your code again - the sun should start low, and then rise and fall in a arc shape.
 --- /task ---
+
+
+Test the code by pressing the green flag - the sun should follow your mouse movment from side to side
