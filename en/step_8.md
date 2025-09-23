@@ -20,7 +20,7 @@ Travel the world
 
 
 --- task ---
-Add the another when key pressed event, and choose up arrow on the menu
+Add a `when key pressed` event, and choose up arrow on the menu
 ```blocks3
 +when [up arrow v] key pressed
 ```
@@ -29,7 +29,7 @@ Add the another when key pressed event, and choose up arrow on the menu
 add gif
 
 --- task ---
-add switch costume from the looks menu. Insert a pick random number into the empty field
+add `switch costume` from the `Looks` menu. Insert a `pick random number` into the empty field
 ```blocks3
 when [up arrow v] key pressed
 +switch costume to (pick random (1) to (52))
@@ -46,4 +46,5 @@ Test out the code. the random will switch to one of the 52 cosutumes
 --- /task ---
 
 TIP: To see these look in the costume tab
-ADD GIF
+
+![ALT TEXT](images/costumes.png)

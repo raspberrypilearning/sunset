@@ -25,7 +25,7 @@ Select the city sprite
 --- /task ---
 
 --- task ---
-Add a green flag block to the code area and drag a forever block under. 
+Add a `green flag` block to the code area and drag a `forever` block under. 
 
 ```blocks3
 +when green flag clicked
@@ -34,7 +34,7 @@ Add a green flag block to the code area and drag a forever block under.
 --- /task ---
 
 --- task ---
-Add an if then else block inside the forever. Add mouse x and type in 230. 
+Add an `if then else` block inside the forever. Add `mouse x` and type in 230. 
 
 ```blocks3
 when green flag clicked
@@ -47,9 +47,9 @@ end
 --- /task ---
 
 --- task ---
-Add the set effect block and selcet bringness from the menu. Type 100 to the field. Add another set effect block and choose color fromt the menu. Type 255 to the field.
+Add the `set effect` block and selcet brightness from the menu. Type 100 to the field. Add another `set effect` block and choose color fromt the menu. Type 255 to the field.
 
-Add a clear graphics effect after else
+Add a `clear graphics effect` after `else`
 
 ```blocks3
 when green flag clicked

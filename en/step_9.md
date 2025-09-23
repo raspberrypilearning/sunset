@@ -21,14 +21,14 @@ Where are we?
 
 
 --- task ---
-Add another when key pressed event and choose down arrow from the menu
+Add `when key pressed` event and choose down arrow from the menu
 ```blocks3
 +when [down arrow v] key pressed
 ```
 --- /task ---
 
 --- task ---
-Add a say block from the looks blocks menu. Choose costume name and type 1 second.
+Add a `say` block from the `Looks` blocks menu. Choose costume name and type 1 second.
 ```blocks3
 when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds

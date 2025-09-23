@@ -20,7 +20,7 @@ Switch to a night sky
 
 
 --- task ---
-Add an if else block.
+Add an `if else` block.
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -35,7 +35,7 @@ end
 --- /task ---
 
 --- task ---
-In the ad a less than opertor, this has a '<'. Add mouse x and 230 to this.  
+Add a `comparative` opertor, this has a '<' symbol. Add `mouse x` and type 230.  
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -49,7 +49,9 @@ end
 --- /task ---
 
 --- task ---
-Drag switch backdrop under the if and set the backdrop to sunset on the dropdown menu. Also drag a switch backdrop to under the else, but set this to Stars.
+Drag a `switch backdrop` under, and set the backdrop to sunset on the dropdown menu. 
+
+Drag a `switch backdrop` to under the else, but set this to Stars.
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -64,10 +66,6 @@ end
 ```
 --- /task ---
 
-ADD GIF OF MENU HERE
-
-![ALT TEXT](images/4.png)
-
 --- task ---
-Test it out. The backdrop should change `if` mouse x is great than 230. 
+Test it out. The backdrop should change `if` `mouse x` is great than 230. 
 --- /task ---

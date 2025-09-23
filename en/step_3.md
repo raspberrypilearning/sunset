@@ -23,8 +23,6 @@ forever
 --- /task ---
 
 
-
-
 --- task ---
 Add a divide by operator to the abs of, and add a mouse x and type the number 4 into to the empty fields. 
 ```blocks3
