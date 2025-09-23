@@ -51,6 +51,7 @@ forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
  set size to ((50) + (([abs v] of (mouse x)) / (4))) %
 ```
+--- /task ---
 
 --- task ---
 Test you code and play around with diffenrt numbers to divide the mouse x by to how you want to change the size

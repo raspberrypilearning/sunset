@@ -20,34 +20,53 @@ Make the stars come out at night
 
 --- task ---
 Add an if else block.
-
+```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
 forever
 set [color v] effect to ((mouse x) / (4))
-if <> then
++if <> then
 else
 end
 end
-
+```
 
 --- /task ---
 
-
-
+--- task ---
+In the ad a less than opertor, this has a '<'. Add mouse x and 230 to this.  
+```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
 forever
 set [color v] effect to ((mouse x) / (4))
 if <(mouse x) < (230)> then
-switch backdrop to (sunset v)
 else
-switch backdrop to (Stars v)
 end
 end
+```
+--- /task ---
+
+--- task ---
+Drag switch backdrop under the if and set the backdrop to sunset on the dropdown menu. Also drag a switch backdrop to under the else, but set this to Stars.
+```blocks3
+when green flag clicked
+switch backdrop to (sunset v)
+forever
+set [color v] effect to ((mouse x) / (4))
+if <(mouse x) < (230)> then
++switch backdrop to (sunset v)
+else
++switch backdrop to (Stars v)
+end
+end
+```
+--- /task ---
+
+ADD GIF OF MENU HERE
 
 ![ALT TEXT](images/4.png)
 
 --- task ---
-test
+Test it out. The backdrop should change `if` mouse x is great than 230. 
 --- /task ---

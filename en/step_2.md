@@ -1,24 +1,6 @@
 ## Move the sun
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Move the sun accross the sky with your mouse.
-</div>
-<div>
-
-![ADD](images/move-sun-step.png){:width="300px"}
-
-</div>
-</div>
-
-<html>
-<div style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 20px; box-shadow: 0 0 15px #3fb654; overflow: hidden;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/wZU1QGnKG8c?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-
+ç
 --- task ---
 Open the starter project ADD LINK rpf.io/sunset-go
 --- /task ---

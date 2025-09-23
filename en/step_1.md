@@ -9,7 +9,7 @@ Make the sun move accross the sky and city skyline light up. Travel to differnt 
 --- no-print ---
 [Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
 
-
+--- /no-print ---
 
 Video embed
 <video width="640" height="360" controls>
@@ -28,4 +28,3 @@ Press ADD KEY TEXT
 - Scratch starter project
 - what
 - else?
---- /no-print ---
