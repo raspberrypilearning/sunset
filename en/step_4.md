@@ -1,8 +1,8 @@
-## Red sky at night
+## Change the colour
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Change the colour of the sky
+Make the sky change colour
 </div>
 <div>
 
@@ -19,18 +19,48 @@ Change the colour of the sky
 </html>
 
 
-
 --- task ---
 Select the backdrop from the stage pane. 
+
+![ALT TEXT](images/mousex.gif)
+--- /task ---
+
+--- task ---
+Drag a `when flag clicked` block into the Code area
+
++ when green flag clicked
+--- /task ---
+
+--- task ---
+From the `Looks` block menu drag a `switch backdrop to` block.
+
+when green flag clicked
++switch backdrop to (sunset v)
+
+Choose sunset from the dropdown menu.
+![ALT TEXT](images/menu.gif)
 --- /task ---
 
 
 
 --- task ---
-In the colour effect block add a divided by operator. Drag and drop mouse x into the first field and type 4 to the second. 
+Add a `set colour effect` block from the `Looks` menu
+
 ```blocks3
 when green flag clicked
-switch backdrop to [sunset v]
+switch backdrop to (sunset v)
+forever
+set [color v] effect to ((mouse x) / (4))
+end
+```
+--- /task ---
+
+--- task ---
+In the `set colour effect` block add a `divided by` operator block. Drag and drop `mouse x` into the first field and type 4 to the second. 
+
+```blocks3
+when green flag clicked
+switch backdrop to (sunset v)
 forever
 set [color v] effect to ((mouse x) / (4))
 end
@@ -39,5 +69,5 @@ end
 
 
 --- task ---
-Test it out. You can play aournd with the colours be chaning the number 4 until you find a colour range that you like
+**Test:** You can play aournd with the colours be chaning the number 4 until you find a colour range that you like
 --- /task ---

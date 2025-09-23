@@ -1,8 +1,8 @@
-## Where am I?
+## Where are we?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Move the sun accross the sky
+Where are we?
 </div>
 <div>
 
@@ -22,15 +22,17 @@ Move the sun accross the sky
 
 --- task ---
 Add another when key pressed event and choose down arrow from the menu
-
+```blocks3
 +when [down arrow v] key pressed
+```
 --- /task ---
 
 --- task ---
 Add a say block from the looks blocks menu. Choose costume name and type 1 second.
-
+```blocks3
 when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds
+```
 --- /task ---
 
 

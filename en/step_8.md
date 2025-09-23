@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Move the sun accross the sky
+Travel the world
 </div>
 <div>
 
@@ -21,17 +21,19 @@ Move the sun accross the sky
 
 --- task ---
 Add the another when key pressed event, and choose up arrow on the menu
-
+```blocks3
 +when [up arrow v] key pressed
+```
 --- /task ---
 
 add gif
 
 --- task ---
 add switch costume from the looks menu. Insert a pick random number into the empty field
-
+```blocks3
 when [up arrow v] key pressed
 +switch costume to (pick random (1) to (52))
+```
 --- /task---
 
 --- task ---

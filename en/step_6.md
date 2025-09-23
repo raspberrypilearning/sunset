@@ -1,4 +1,4 @@
-## City lights
+## Light it
 
 
 <div style="display: flex; flex-wrap: wrap">
@@ -27,21 +27,23 @@ Select the city sprite
 --- task ---
 Add a green flag block to the code area and drag a forever block under. 
 
+```blocks3
 +when green flag clicked
  +forever
-
+```
 --- /task ---
 
 --- task ---
 Add an if then else block inside the forever. Add mouse x and type in 230. 
 
+```blocks3
 when green flag clicked
  forever
   +if <(mouse x) > (230)> then
   else
   end
 end
-
+```
 --- /task ---
 
 --- task ---
@@ -49,6 +51,7 @@ Add the set effect block and selcet bringness from the menu. Type 100 to the fie
 
 Add a clear graphics effect after else
 
+```blocks3
 when green flag clicked
  forever
   if <(mouse x) > (230)> then
@@ -58,7 +61,7 @@ when green flag clicked
    +clear graphic effects
   end
 end
-
+```
 --- /task ---
 
 --- task ---
