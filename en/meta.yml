@@ -1,14 +1,20 @@
-title: Project title in sentence case
+title: Sunset
 hero_image: images/banner.png
-description: A short description of the project
+description: Create a city scene!
 listed: false
-pdf: false
+pdf: resources/sunset-visual.pdf
 steps:
   - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
+  - title: Move the sun
+  - title: Make it grow
+  - title: Change the colour
+  - title: Night sky
+  - title: Light it
+  - title: Switch cities
+  - title: Travel the world
+  - title: Where are we?
   - title: Challenge
     challenge: true
     completion:
       - external
+  - title: Visual first
