@@ -12,7 +12,7 @@ steps:
   - title: Light it
   - title: Switch cities
   - title: Travel the world
-  - title: Where are?
+  - title: Where are we?
   - title: Challenge
     challenge: true
     completion:

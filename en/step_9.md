@@ -34,25 +34,18 @@ Choose down arrow from the menu.
 --- task ---
 Add a `say`{:class="block3looks"} block. 
 
-```blocks3
-when [down arrow v] key pressed
-+say (Hello!) for (1) seconds
-```
---- /task ---
-
---- task ---
-Drag costume number block and choose **name** from the drop down menu. 
+Insert a `costume`{:class="block3looks"} block and choose **name** from the drop down menu. 
 
 ```blocks3
 when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds
 ```
 
-**Tip:** drag ontop of the text in the say block
-
-![ALT TEXT](images/name.gif)
 --- /task ---
 
+**Tip:** drag ontop of the text in the say block, then choose from the menu
+
+![ALT TEXT](images/name.gif)
 
 --- task ---
 **Test:** press up arrow and check the name of the city costume shows in a speech bubble
