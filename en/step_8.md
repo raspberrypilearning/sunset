@@ -26,25 +26,30 @@ Add a `when key pressed`{:class="block3events"} event, and choose up arrow on th
 ```
 --- /task ---
 
-add gif
+add gif below
 
 --- task ---
-add `switch costume`{:class="block3events"} from the `Looks`{:class="block3events"} menu. Insert a `pick random number`{:class="block3events"} into the empty field
+add `switch costume`{:class="block3looks"} from the `Looks`{:class="block3looks"} menu. Insert a `pick random number`{:class="block3operators"} into the empty field
 ```blocks3
 when [up arrow v] key pressed
-+switch costume to (pick random (1) to (52))
++switch costume to (pick random () to ())
 ```
 --- /task---
 
 --- task ---
 Change the numbers so they are between 1 and 52. 
+
+```blocks3
+when [up arrow v] key pressed
++switch costume to (pick random (1) to (52))
+```
 --- /task ---
 
+**TIP:** To see these look in the costume tab
+
+![ALT TEXT](images/costumes.png)
 
 --- task ---
 Test out the code. the random will switch to one of the 52 cosutumes 
 --- /task ---
 
-TIP: To see these look in the costume tab
-
-![ALT TEXT](images/costumes.png)

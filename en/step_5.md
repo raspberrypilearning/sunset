@@ -73,4 +73,3 @@ ADD image
 Test it out. The backdrop should change `if`{:class="block3operators"} `mouse x`{:class="block3sensing"} is great than 230. 
 --- /task ---
 
-Test: ADD

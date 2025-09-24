@@ -38,6 +38,7 @@ when [down arrow v] key pressed
 ```
 --- /task ---
 
+add image of drop down
 
 --- task ---
 **Test:** press up arrow and check the name of the city costume shows in a speech bubble

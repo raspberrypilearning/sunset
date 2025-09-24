@@ -42,7 +42,7 @@ forever
 
 
 --- task ---
-In the first field type in 50. In the second field add and abs of block.
+In the first field type in 50. In the second field add and `abs of block`{:class="block3operators"}.
 
 ```blocks3
 when green flag clicked
@@ -59,7 +59,7 @@ Add a `divide by`{:class="block3operators"} operator block to the `abs of`{:clas
 when green flag clicked
 forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
- set size to ((50) + (([abs v] of (mouse x)) / (4))) %
+ set size to ((50) + (([abs v] of ()) / ())) %
 ```
 --- /task ---
 

@@ -32,7 +32,7 @@ Drag a `when flag clicked`{:class="block3events"} block into the Code area
 --- /task ---
 
 --- task ---
-From the `Looks`{:class="block3events"} block menu drag a `switch backdrop to`{:class="block3events"} block.
+From the `Looks`{:class="block3looks"} block menu drag a `switch backdrop to`{:class="block3looks"} block.
 
 when green flag clicked
 +switch backdrop to (sunset v)
@@ -44,7 +44,7 @@ Choose sunset from the dropdown menu.
 
 
 --- task ---
-Add a `set colour effect`{:class="block3events"} block from the `Looks`{:class="block3events"} menu
+Add a `set colour effect`{:class="block3looks"} block from the `Looks`{:class="block3looks"} menu
 
 ```blocks3
 when green flag clicked
@@ -56,7 +56,7 @@ end
 --- /task ---
 
 --- task ---
-In the `set colour effect`{:class="block3events"} block add a `divided by`{:class="block3events"} operator block. Drag and drop `mouse x`{:class="block3events"} into the first field and type 4 to the second. 
+In the `set colour effect`{:class="block3looks"} block add a `divided by`{:class="block3operators"} operator block. Drag and drop `mouse x`{:class="block3sensing"} into the first field and type 4 to the second. 
 
 ```blocks3
 when green flag clicked

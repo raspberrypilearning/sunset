@@ -25,7 +25,7 @@ Select the city sprite
 --- /task ---
 
 --- task ---
-Add a `green flag`{:class="block3events"} block to the code area and drag a `forever`{:class="block3events"} block under. 
+Add a `green flag`{:class="block3events"} block to the code area and drag a `forever`{:class="block3control"} block under. 
 
 ```blocks3
 +when green flag clicked
@@ -34,7 +34,7 @@ Add a `green flag`{:class="block3events"} block to the code area and drag a `for
 --- /task ---
 
 --- task ---
-Add an `if then else`{:class="block3events"} block inside the forever. Add `mouse x`{:class="block3events"} and type in 230. 
+Add an `if then else`{:class="block3control"} block inside the forever. Add `mouse x`{:class="block3sensing"} and type in 230. 
 
 ```blocks3
 when green flag clicked
@@ -47,9 +47,9 @@ end
 --- /task ---
 
 --- task ---
-Add the `set effect`{:class="block3events"} block and selcet brightness from the menu. Type 100 to the field. Add another `set effect`{:class="block3events"} block and choose color fromt the menu. Type 255 to the field.
+Add the `set effect`{:class="block3looks"} block and selcet brightness from the menu. Type 100 to the field. Add another `set effect`{:class="block3looks"} block and choose color fromt the menu. Type 255 to the field.
 
-Add a `clear graphics effect`{:class="block3events"} after `else`{:class="block3events"}
+Add a `clear graphics effect`{:class="block3looks"} after `else`{:class="block3control"}
 
 ```blocks3
 when green flag clicked
