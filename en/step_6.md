@@ -20,7 +20,7 @@ Light up the city
 </html>
 <div style="text-align: center; margin-top: 1em;">
 
-Play, pause, make. Follow the project on our [YouTube](9) playlist!
+Play, pause, make. Follow the project on our [YouTube](10) playlist!
 </div>
 
 ### Select the city
