@@ -70,7 +70,9 @@ forever
 --- /task ---
 
 --- task ---
-Add a `mouse x`{:class="block3sensing"} and type the number 4 into to the empty fields. 
+Add a `mouse x`{:class="block3sensing"}.
+
+Type the number 4 into to the empty fields. 
 ```blocks3
 when green flag clicked
 forever

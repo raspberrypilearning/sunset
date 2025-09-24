@@ -47,17 +47,19 @@ Choose sunset from the dropdown menu.
 --- task ---
 Add a `set color effect`{:class="block3looks"} block from the `Looks`{:class="block3looks"} menu.
 
+Add a `divided by`{:class="block3operators"} block. 
+
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
 forever
-set [color v] effect to ((mouse x) / (4))
++ set [color v] effect to (() / ())
 end
 ```
 --- /task ---
 
 --- task ---
-In the `set colour effect`{:class="block3looks"} block add a `divided by`{:class="block3operators"} block. 
+
 
 Drag and drop `mouse x`{:class="block3sensing"} into the first field and type 4 to the second. 
 

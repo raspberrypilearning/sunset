@@ -41,9 +41,9 @@ when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds
 ```
 
+![ALT TEXT](images/name.png)
 --- /task ---
 
-![ALT TEXT](images/name.png)
 
 
 --- task ---
