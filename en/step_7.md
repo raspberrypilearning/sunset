@@ -18,6 +18,7 @@ Switch cities
 </div><br>
 </html>
 
+### Ask which city?
 
 --- task ---
 Drag the `when space key pressed`{:class="block3events"} from the event blocks.
@@ -28,24 +29,29 @@ Drag the `when space key pressed`{:class="block3events"} from the event blocks.
 --- /task ---
 
 --- task ---
-Add the `ask and wait`{:class="block3sensing"} block, then type in "Which city?"
+Add the `ask and wait`{:class="block3sensing"} block.
+
+Type in "Which city?" into the field
 ```blocks3
 when [space v] key pressed
 +ask [Which city?] and wait
 ```
-
 --- /task ---
 
+Add typing gif
+
 --- task ---
-Drag a `switch costume`{:class="block3looks"} to block from the `Looks`{:class="block3looks"} menu and put the `answer`{:class="block3sensing"}  block in the empty field
+Drag a `switch costume`{:class="block3looks"} block under.
+
+Drag the `answer`{:class="block3sensing"} block in the empty field.
 ```blocks3
 when [space v] key pressed
 ask [Which city?] and wait
 +switch costume to (answer)
 ```
+![ALT TEXT](images/switch.gif)
 --- /task ---
 
-change gif
-![ALT TEXT](images/switch.gif)
 
-Test: ADd
+
+**Test:** check that the ask shows when space pressed. Type a city and check that it changes.

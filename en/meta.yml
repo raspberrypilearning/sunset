@@ -2,7 +2,7 @@ title: Sunset
 hero_image: images/banner.png
 description: Create a city scene!
 listed: false
-pdf: false
+pdf: resources/sunset-visual.pdf
 steps:
   - title: What you will make
   - title: Move the sun

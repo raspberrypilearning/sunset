@@ -19,9 +19,13 @@ Light up the city
 </div><br>
 </html>
 
+### Select city
 
 --- task ---
 Select the city sprite
+
+![ALT TEXT](images/city-sprite.png)
+
 --- /task ---
 
 --- task ---
@@ -33,8 +37,11 @@ Add a `green flag`{:class="block3events"} block to the code area and drag a `for
 ```
 --- /task ---
 
+
 --- task ---
-Add an `if then else`{:class="block3control"} block inside the forever. Add `mouse x`{:class="block3sensing"} and type in 230. 
+Add an `if else`{:class="block3control"} block inside the forever. 
+
+Add `mouse x`{:class="block3sensing"} and type in 230. 
 
 ```blocks3
 when green flag clicked
@@ -46,8 +53,28 @@ end
 ```
 --- /task ---
 
+### Set effect
+
 --- task ---
-Add the `set effect`{:class="block3looks"} block and selcet brightness from the menu. Type 100 to the field. Add another `set effect`{:class="block3looks"} block and choose color fromt the menu. Type 255 to the field.
+Add the `set effect`{:class="block3looks"} block and selcet **brightness** from the menu. 
+
+Type 100 to the field. 
+
+```blocks3
+when green flag clicked
+ forever
+  if <(mouse x) > (230)> then
+ + set [brightness v] effect to (100)
+  else
+  end
+end
+```
+--- /task ---
+
+--- task ---
+Add another `set effect`{:class="block3looks"} block and choose **color** fromt the menu. 
+
+Type 255 to the field.
 
 Add a `clear graphics effect`{:class="block3looks"} after `else`{:class="block3control"}
 
@@ -55,7 +82,7 @@ Add a `clear graphics effect`{:class="block3looks"} after `else`{:class="block3c
 when green flag clicked
  forever
   if <(mouse x) > (230)> then
- + set [brightness v] effect to (100)
+  set [brightness v] effect to (100)
  + set [color v] effect to (255)
   else
  + clear graphic effects
@@ -65,6 +92,6 @@ end
 --- /task ---
 
 --- task ---
-Test code and change the brightness and colour affect to make your city light up at night
+**Test:** check the brightness and colour changes to make the city light when it is dark
 --- /task ---
 

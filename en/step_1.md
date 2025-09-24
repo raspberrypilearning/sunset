@@ -22,7 +22,7 @@ Follow along the project on our [YouTube](9) playlist!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Print our NEW LINK TO PDF [visual-first](9) step-by-step guide!
+Print our [visual-first](resources/sunset-visual.pdf) step-by-step guide!
 </p>
 
 

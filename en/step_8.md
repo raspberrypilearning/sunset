@@ -18,6 +18,7 @@ Use random to change the city
 </div><br>
 </html>
 
+### Change cities
 
 --- task ---
 Add a `when key pressed`{:class="block3events"} event, and choose up arrow on the menu
@@ -26,10 +27,13 @@ Add a `when key pressed`{:class="block3events"} event, and choose up arrow on th
 ```
 --- /task ---
 
-add gif below
+![ALT TEXT](images/up.png)
 
 --- task ---
-add `switch costume`{:class="block3looks"} from the `Looks`{:class="block3looks"} menu. Insert a `pick random number`{:class="block3operators"} into the empty field
+Add a `switch costume`{:class="block3looks"} block. 
+
+Insert a `pick random number`{:class="block3operators"} into the empty field
+
 ```blocks3
 when [up arrow v] key pressed
 +switch costume to (pick random () to ())
@@ -45,11 +49,11 @@ when [up arrow v] key pressed
 ```
 --- /task ---
 
-**TIP:** To see these look in the costume tab
+**TIP:** To see all the city costumes click on the costume tab
 
 ![ALT TEXT](images/costumes.png)
 
 --- task ---
-Test out the code. the random will switch to one of the 52 cosutumes 
+**Test:** check that random cities show when clicking the up arrow. 
 --- /task ---
 

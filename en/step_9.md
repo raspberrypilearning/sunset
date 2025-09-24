@@ -22,7 +22,9 @@ Say the name of the city you are in.
 ### Show the city
 
 --- task ---
-From the `events`{:class="block3events"} menu drag a `when key pressed`{:class="block3events"} block and choose down arrow from the menu.
+From the `events`{:class="block3events"} menu drag a `when key pressed`{:class="block3events"} block.
+
+Choose down arrow from the menu.
 
 ```blocks3
 +when [down arrow v] key pressed
@@ -30,15 +32,19 @@ From the `events`{:class="block3events"} menu drag a `when key pressed`{:class="
 --- /task ---
 
 --- task ---
-Add the `say`{:class="block3looks"} block. Choose costume name from the drop down menu. 
+Add a `say`{:class="block3looks"} block. 
+
+Choose costume name from the drop down menu. 
 
 ```blocks3
 when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds
 ```
+
 --- /task ---
 
-add image of drop down
+![ALT TEXT](images/name.png)
+
 
 --- task ---
 **Test:** press up arrow and check the name of the city costume shows in a speech bubble

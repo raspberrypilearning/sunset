@@ -18,7 +18,7 @@ Make the sky change colour
 </div><br>
 </html>
 
-
+### Switch backdrop
 --- task ---
 Select the backdrop from the stage pane. 
 
@@ -26,25 +26,26 @@ Select the backdrop from the stage pane.
 --- /task ---
 
 --- task ---
-Drag a `when flag clicked`{:class="block3events"} block into the Code area
+Drag a `when flag clicked`{:class="block3events"} block into the Code area.
 
 + when green flag clicked
 --- /task ---
 
 --- task ---
-From the `Looks`{:class="block3looks"} block menu drag a `switch backdrop to`{:class="block3looks"} block.
+From the `Looks`{:class="block3looks"} block menu drag a `switch backdrop`{:class="block3looks"} block.
 
 when green flag clicked
 +switch backdrop to (sunset v)
 
 Choose sunset from the dropdown menu.
+
 ![ALT TEXT](images/menu.gif)
 --- /task ---
 
-
+### Set colour
 
 --- task ---
-Add a `set colour effect`{:class="block3looks"} block from the `Looks`{:class="block3looks"} menu
+Add a `set color effect`{:class="block3looks"} block from the `Looks`{:class="block3looks"} menu.
 
 ```blocks3
 when green flag clicked
@@ -56,7 +57,9 @@ end
 --- /task ---
 
 --- task ---
-In the `set colour effect`{:class="block3looks"} block add a `divided by`{:class="block3operators"} operator block. Drag and drop `mouse x`{:class="block3sensing"} into the first field and type 4 to the second. 
+In the `set colour effect`{:class="block3looks"} block add a `divided by`{:class="block3operators"} block. 
+
+Drag and drop `mouse x`{:class="block3sensing"} into the first field and type 4 to the second. 
 
 ```blocks3
 when green flag clicked

@@ -18,6 +18,8 @@ Make the sun move across the sky
 </div><br>
 </html>
 
+### Get started
+
 --- task ---
 Open the [starter project](http://rpf.io/sunset-go){:target="_blank"}.
 --- /task ---
@@ -39,7 +41,7 @@ From the `Events`{:class="block3events"} block menu, drag the `When flag clicked
 
 
 --- task ---
-From the `Control`{:class="block3control"} menu drag a `forever`{:class="block3control"} block under the `when this sprite clicked`{:class="block3events"} block. 
+From the `Control`{:class="block3control"} menu drag a `forever`{:class="block3control"} block under the `when this sprite clicked`{:class="block3events"}. 
 
 ```blocks3
 when green flag clicked
@@ -49,7 +51,7 @@ when green flag clicked
 The blocks will snap together.
 --- /task ---
 
-
+### Add motion
 
 --- task ---
 From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `Forever`{:class="block3control"} block. 
@@ -62,7 +64,9 @@ forever
 --- /task ---
 
 --- task ---
-The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3sensing"}. In the second drag in a `minus operator`{:class="block3operators"}
+The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3sensing"}. 
+
+In the second field drag in a `minus`{:class="block3operators"} block.
 
 ```blocks3
 when green flag clicked
@@ -76,9 +80,10 @@ go to x: (mouse x) y: (()-())
 
 ![ALT TEXT](images/mousex.gif)
 
+### Make an arc
 
 --- task ---
-In the `minus operator`{:class="block3operators"} type in 200 to the first field, and drag in an `abs of`{:class="block3operators"} in the second.
+In the `minus`{:class="block3operators"} block type in 200 to the first field, and drag in an `abs of`{:class="block3operators"} block in the second.
 
 ```blocks3
 when green flag clicked

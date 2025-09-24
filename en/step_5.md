@@ -18,9 +18,9 @@ Switch to a night sky
 </div><br>
 </html>
 
-
+### Add an "if else"
 --- task ---
-Add an `if else`{:class="block3control"}  block.
+Add an `if else`{:class="block3control"} block.
 
 ```blocks3
 when green flag clicked
@@ -36,7 +36,10 @@ end
 --- /task ---
 
 --- task ---
-Add a `comparative`{:class="block3operators"} opertor, this has a '<' symbol. Add `mouse x`{:class="block3sensing"} and type 230.  
+Add a `less than`{:class="block3operators"} block. 
+
+Add `mouse x`{:class="block3sensing"} and type 230 into the fields.  
+
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -49,10 +52,13 @@ end
 ```
 --- /task ---
 
---- task ---
-Drag a `switch backdrop`{:class="block3looks"} under, and set the backdrop to sunset on the dropdown menu. 
+### Switch backdrop
 
-Drag a `switch backdrop`{:class="block3looks"} to under the else, but set this to Stars.
+--- task ---
+Drag a `switch backdrop`{:class="block3looks"} to under the `if`{:class="block3operators"}, and set this to backdrop to sunset on the dropdown menu. 
+
+Drag a `switch backdrop`{:class="block3looks"} to under the `else`{:class="block3operators"}, and set this to Stars.
+
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -67,9 +73,7 @@ end
 ```
 --- /task ---
 
-ADD image
-
 --- task ---
-Test it out. The backdrop should change `if`{:class="block3operators"} `mouse x`{:class="block3sensing"} is great than 230. 
+**Test:** Check that the backdrop changes `if`{:class="block3operators"} `mouse x`{:class="block3sensing"} is more than 230. 
 --- /task ---
 

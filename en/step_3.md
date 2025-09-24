@@ -18,8 +18,11 @@ Make the sun grow as it moves accross the sky
 </div><br>
 </html>
 
+### Set size
+
 --- task ---
-From the `looks`{:class="block3looks"} menu add the `set size`{:class="block3looks"} to block to your blocks
+From the `looks`{:class="block3looks"} menu add the `set size`{:class="block3looks"} block.
+
 ```blocks3
 when green flag clicked
 forever
@@ -30,7 +33,7 @@ forever
 
 
 --- task ---
-Add a `plus operator`{:class="block3operators"} block into the set size
+Add a `plus`{:class="block3operators"} block into the set size.
 
 ```blocks3
 when green flag clicked
@@ -40,9 +43,11 @@ forever
 ```
 --- /task ---
 
-
+### Make it grow
 --- task ---
-In the first field type in 50. In the second field add and `abs of block`{:class="block3operators"}.
+In the first field type in 50. 
+
+In the second field add an `abs of block`{:class="block3operators"}.
 
 ```blocks3
 when green flag clicked
@@ -54,7 +59,8 @@ forever
 
 
 --- task ---
-Add a `divide by`{:class="block3operators"} operator block to the `abs of`{:class="block3operators"}
+Add a `divide by`{:class="block3operators"} block to the `abs of`{:class="block3operators"}.
+
 ```blocks3
 when green flag clicked
 forever
