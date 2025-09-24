@@ -70,13 +70,13 @@ when green flag clicked
 --- task ---
 Add the `set effect`{:class="block3looks"} block and selcet **brightness** from the menu. 
 
-Type 100 to the field. 
+Type **100** into the field. 
 
 ```blocks3
 when green flag clicked
  forever
   if <(mouse x) > (230)> then
- + set [brightness v] effect to (100)
++ set [brightness v] effect to (100)
   else
   end
 end
@@ -86,18 +86,18 @@ end
 --- task ---
 Add another `set effect`{:class="block3looks"} block and choose **color** fromt the menu. 
 
-Type 255 to the field.
+Type **255** into the field.
 
-Add a `clear graphics effect`{:class="block3looks"} after `else`{:class="block3control"}
+Add a `clear graphics effect`{:class="block3looks"}.
 
 ```blocks3
 when green flag clicked
  forever
   if <(mouse x) > (230)> then
   set [brightness v] effect to (100)
- + set [color v] effect to (255)
++ set [color v] effect to (255)
   else
- + clear graphic effects
++ clear graphic effects
   end
 end
 ```

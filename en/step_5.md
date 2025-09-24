@@ -64,9 +64,9 @@ end
 ### Switch backdrop
 
 --- task ---
-Drag a `switch backdrop`{:class="block3looks"} to under the `if`{:class="block3operators"}, and set to **sunset**.
+Drag a `switch backdrop`{:class="block3looks"}, and set to **sunset**.
 
-Drag a `switch backdrop`{:class="block3looks"} to under the `else`{:class="block3operators"}, and set this to **Stars**.
+Drag a `switch backdrop`{:class="block3looks"}, and set this to **Stars**.
 
 ```blocks3
 when green flag clicked
@@ -83,6 +83,6 @@ end
 --- /task ---
 
 --- task ---
-**Test:** Check that the backdrop changes when the mouse is more than 230. 
+**Test:** Check that the backdrop changes when the mouse is more than **230**. 
 --- /task ---
 

@@ -39,7 +39,7 @@ Add a `plus`{:class="block3operators"} block into the set size.
 when green flag clicked
 forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
- set size to (() + ()) %
++ set size to (() + ()) %
 ```
 --- /task ---
 
@@ -83,5 +83,5 @@ forever
 --- /task ---
 
 --- task ---
-**Test:** play around with diffenrt numbers to divide the mouse x by to how you want to change the size
+**Test:** check that the sun grows and shriks. Experiment with diffenrt numbers to divide by to how you want to change the size
 --- /task ---
