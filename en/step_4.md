@@ -6,7 +6,7 @@ Make the sky change colour
 </div>
 <div>
 
-![ADD](images/ADD.png){:width="300px"}
+![ADD](images/colour.gif){:width="300px"}
 
 </div>
 </div>

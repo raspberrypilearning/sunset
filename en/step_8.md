@@ -6,7 +6,7 @@ Travel the world
 </div>
 <div>
 
-![ADD](images/ADD.png){:width="300px"}
+![ADD](images/random.gif){:width="300px"}
 
 </div>
 </div>

@@ -7,7 +7,7 @@ Light up the city
 </div>
 <div>
 
-![ADD](images/ADD.png){:width="300px"}
+![ADD](images/bright.png){:width="300px"}
 
 </div>
 </div>

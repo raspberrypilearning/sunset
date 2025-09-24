@@ -6,7 +6,7 @@ Switch to a night sky
 </div>
 <div>
 
-![ADD](images/ADD.png){:width="300px"}
+![ADD](images/star.png){:width="300px"}
 
 </div>
 </div>

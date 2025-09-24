@@ -6,7 +6,7 @@ Switch cities
 </div>
 <div>
 
-![ADD](images/ADD.png){:width="300px"}
+![ADD](images/which.png){:width="300px"}
 
 </div>
 </div>

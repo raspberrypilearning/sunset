@@ -6,7 +6,7 @@ Where are we?
 </div>
 <div>
 
-![ADD](images/ADD.png){:width="300px"}
+![ADD](images/where.png){:width="300px"}
 
 </div>
 </div>
