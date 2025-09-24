@@ -29,7 +29,7 @@ Add a `green flag` block to the code area and drag a `forever` block under.
 
 ```blocks3
 +when green flag clicked
- +forever
++ forever
 ```
 --- /task ---
 
@@ -39,7 +39,7 @@ Add an `if then else` block inside the forever. Add `mouse x` and type in 230.
 ```blocks3
 when green flag clicked
  forever
-  +if <(mouse x) > (230)> then
+ + if <(mouse x) > (230)> then
   else
   end
 end
@@ -55,10 +55,10 @@ Add a `clear graphics effect` after `else`
 when green flag clicked
  forever
   if <(mouse x) > (230)> then
-   +set [brightness v] effect to (100)
-   +set [color v] effect to (255)
+ + set [brightness v] effect to (100)
+ + set [color v] effect to (255)
   else
-   +clear graphic effects
+ + clear graphic effects
   end
 end
 ```

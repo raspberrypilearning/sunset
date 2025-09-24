@@ -1,16 +1,14 @@
 ## Challenge
 
 --- task ---
-Add Text to speeach for city names
+Try adding Text to speeach for the city names. You could do this by using one of the scratch extensions.
 --- /task ---
 
 --- task ---
-Add more to the night sky 
-Make the sun become a moon
-What else could you add that come out when its dark?. 
+Could you Aadd more to the night sky? Try making the sun become a moon when it is dark.
 --- /task ---
 
 --- task ---
-Add somewhere else a city you've visited. Take a photo of your town, city, or school and make your own silhouette or Could Use the paint editor to create black outline. Dont forget to change in the random number
+Add a city you know. You could take a photo of your town, city, or school and make your own silhouette or use the paint editor to create black outline. Dont forget to change in the random number.
 --- /task ---
 

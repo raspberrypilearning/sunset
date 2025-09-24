@@ -10,7 +10,4 @@
 </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 1em;">
 
-Print our NEW [visual-first](resources/space-talk-visual.pdf) step-by-step guide! (6.6 MB)
-</div>

@@ -66,6 +66,8 @@ end
 ```
 --- /task ---
 
+ADD image
+
 --- task ---
 Test it out. The backdrop should change `if` `mouse x` is great than 230. 
 --- /task ---

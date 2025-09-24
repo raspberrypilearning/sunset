@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Where are we?
+Say the name of the city you are in.
 </div>
 <div>
 
@@ -21,14 +21,16 @@ Where are we?
 
 
 --- task ---
-Add `when key pressed` event and choose down arrow from the menu
+From the `events`{:class="block3events"} menu drag a `when key pressed`{:class="block3events"} block and choose down arrow from the menu.
+
 ```blocks3
 +when [down arrow v] key pressed
 ```
 --- /task ---
 
 --- task ---
-Add a `say` block from the `Looks` blocks menu. Choose costume name and type 1 second.
+Add the `say`{:class="block3sensing"} block. Choose costume name from the drop down menu. 
+
 ```blocks3
 when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds
@@ -38,5 +40,5 @@ when [down arrow v] key pressed
 
 
 --- task ---
-Test your project - it should say the name of the city costume when you press up arrow
+**Test:** press up arrow and check the name of the city costume shows in a speech bubble
 --- /task ---

@@ -12,9 +12,9 @@ steps:
   - title: Light it
   - title: Switch cities
   - title: Travel the world
-  - title: Where are we?
-  - title: Visual first
+  - title: Where are?
   - title: Challenge
     challenge: true
     completion:
       - external
+  - title: Visual first
