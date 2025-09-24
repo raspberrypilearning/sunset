@@ -20,7 +20,7 @@ Switch cities
 
 
 --- task ---
-Drag the `when space key pressed` from the event blocks.
+Drag the `when space key pressed`{:class="block3events"} from the event blocks.
 
 ```blocks3
 +when [space v] key pressed
@@ -28,7 +28,7 @@ Drag the `when space key pressed` from the event blocks.
 --- /task ---
 
 --- task ---
-Add the `ask and wait` block, then type in "Which city?"
+Add the `ask and wait`{:class="block3sensing"} block, then type in "Which city?"
 ```blocks3
 when [space v] key pressed
 +ask [Which city?] and wait
@@ -37,7 +37,7 @@ when [space v] key pressed
 --- /task ---
 
 --- task ---
-Drag a `switch costume` to block from the `Looks` menu and put the `answer` block in the empty field
+Drag a `switch costume`{:class="block3looks"} to block from the `Looks`{:class="block3looks"} menu and put the `answer`{:class="block3sensing"}  block in the empty field
 ```blocks3
 when [space v] key pressed
 ask [Which city?] and wait
@@ -47,3 +47,5 @@ ask [Which city?] and wait
 
 change gif
 ![ALT TEXT](images/switch.gif)
+
+Test: ADd

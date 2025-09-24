@@ -19,7 +19,7 @@ Make the sun grow as it moves accross the sky
 </html>
 
 --- task ---
-From the looks menu add the set size to block to your blocks
+From the `looks`{:class="block3looks"} menu add the `set size`{:class="block3looks"} to block to your blocks
 ```blocks3
 when green flag clicked
 forever
@@ -30,7 +30,7 @@ forever
 
 
 --- task ---
-Add a `plus operator` block into the set size
+Add a `plus operator`{:class="block3operators"} block into the set size
 
 ```blocks3
 when green flag clicked
@@ -54,7 +54,7 @@ forever
 
 
 --- task ---
-Add a `divide by` operator block to the `abs of`
+Add a `divide by`{:class="block3operators"} operator block to the `abs of`{:class="block3operators"}
 ```blocks3
 when green flag clicked
 forever
@@ -64,7 +64,7 @@ forever
 --- /task ---
 
 --- task ---
-Add a `mouse x` and type the number 4 into to the empty fields. 
+Add a `mouse x`{:class="block3sensing"} and type the number 4 into to the empty fields. 
 ```blocks3
 when green flag clicked
 forever

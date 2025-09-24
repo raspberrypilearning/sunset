@@ -26,13 +26,13 @@ Select the backdrop from the stage pane.
 --- /task ---
 
 --- task ---
-Drag a `when flag clicked` block into the Code area
+Drag a `when flag clicked`{:class="block3events"} block into the Code area
 
 + when green flag clicked
 --- /task ---
 
 --- task ---
-From the `Looks` block menu drag a `switch backdrop to` block.
+From the `Looks`{:class="block3events"} block menu drag a `switch backdrop to`{:class="block3events"} block.
 
 when green flag clicked
 +switch backdrop to (sunset v)
@@ -44,7 +44,7 @@ Choose sunset from the dropdown menu.
 
 
 --- task ---
-Add a `set colour effect` block from the `Looks` menu
+Add a `set colour effect`{:class="block3events"} block from the `Looks`{:class="block3events"} menu
 
 ```blocks3
 when green flag clicked
@@ -56,7 +56,7 @@ end
 --- /task ---
 
 --- task ---
-In the `set colour effect` block add a `divided by` operator block. Drag and drop `mouse x` into the first field and type 4 to the second. 
+In the `set colour effect`{:class="block3events"} block add a `divided by`{:class="block3events"} operator block. Drag and drop `mouse x`{:class="block3events"} into the first field and type 4 to the second. 
 
 ```blocks3
 when green flag clicked

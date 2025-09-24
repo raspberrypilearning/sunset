@@ -20,7 +20,8 @@ Switch to a night sky
 
 
 --- task ---
-Add an `if else` block.
+Add an `if else`{:class="block3control"}  block.
+
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -35,7 +36,7 @@ end
 --- /task ---
 
 --- task ---
-Add a `comparative` opertor, this has a '<' symbol. Add `mouse x` and type 230.  
+Add a `comparative`{:class="block3operators"} opertor, this has a '<' symbol. Add `mouse x`{:class="block3sensing"} and type 230.  
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -49,9 +50,9 @@ end
 --- /task ---
 
 --- task ---
-Drag a `switch backdrop` under, and set the backdrop to sunset on the dropdown menu. 
+Drag a `switch backdrop`{:class="block3looks"} under, and set the backdrop to sunset on the dropdown menu. 
 
-Drag a `switch backdrop` to under the else, but set this to Stars.
+Drag a `switch backdrop`{:class="block3looks"} to under the else, but set this to Stars.
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
@@ -69,5 +70,7 @@ end
 ADD image
 
 --- task ---
-Test it out. The backdrop should change `if` `mouse x` is great than 230. 
+Test it out. The backdrop should change `if`{:class="block3operators"} `mouse x`{:class="block3sensing"} is great than 230. 
 --- /task ---
+
+Test: ADD

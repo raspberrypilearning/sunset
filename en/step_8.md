@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Travel the world
+Use random to change the city
 </div>
 <div>
 
@@ -20,7 +20,7 @@ Travel the world
 
 
 --- task ---
-Add a `when key pressed` event, and choose up arrow on the menu
+Add a `when key pressed`{:class="block3events"} event, and choose up arrow on the menu
 ```blocks3
 +when [up arrow v] key pressed
 ```
@@ -29,7 +29,7 @@ Add a `when key pressed` event, and choose up arrow on the menu
 add gif
 
 --- task ---
-add `switch costume` from the `Looks` menu. Insert a `pick random number` into the empty field
+add `switch costume`{:class="block3events"} from the `Looks`{:class="block3events"} menu. Insert a `pick random number`{:class="block3events"} into the empty field
 ```blocks3
 when [up arrow v] key pressed
 +switch costume to (pick random (1) to (52))
