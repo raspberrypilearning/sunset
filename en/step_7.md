@@ -31,14 +31,18 @@ Drag the `when space key pressed`{:class="block3events"} from the event blocks.
 --- task ---
 Add the `ask and wait`{:class="block3sensing"} block.
 
-Type in "Which city?" into the field
+Type in **"Which city?"** into the field
+
 ```blocks3
 when [space v] key pressed
 +ask [Which city?] and wait
 ```
+
+**Tip:** delete the text and then type
+
+![animated gif of typing in scratch block](images/type.gif)
 --- /task ---
 
-Add typing gif
 
 --- task ---
 Drag a `switch costume`{:class="block3looks"} block under.
@@ -50,9 +54,10 @@ ask [Which city?] and wait
 +switch costume to (answer)
 ```
 
---- /task ---
-
 **Tip:** drag the `answer`{:class="block3sensing"} block over the switch costume menu to insert it
 ![ALT TEXT](images/switch.gif)
+--- /task ---
+
+
 
 **Test:** check that the ask shows when space pressed. Type a city and check that it changes.

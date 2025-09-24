@@ -19,6 +19,7 @@ Switch to a night sky
 </html>
 
 ### Add an "if else"
+
 --- task ---
 Add an `if else`{:class="block3control"} block.
 
@@ -38,14 +39,22 @@ end
 --- task ---
 Add a `less than`{:class="block3operators"} block. 
 
-Add `mouse x`{:class="block3sensing"} and type 230 into the fields.  
+![animated gif of dropping a less than block](images/if.gif)
+
+--- /task ---
+
+--- task ---
+
+Add `mouse x`{:class="block3sensing"} block into the first field.
+
+Type **230** into the second field.  
 
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
 forever
 set [color v] effect to ((mouse x) / (4))
-if <(mouse x) < (230)> then
++if <(mouse x) < (230)> then
 else
 end
 end
@@ -55,9 +64,9 @@ end
 ### Switch backdrop
 
 --- task ---
-Drag a `switch backdrop`{:class="block3looks"} to under the `if`{:class="block3operators"}, and set this to backdrop to sunset on the dropdown menu. 
+Drag a `switch backdrop`{:class="block3looks"} to under the `if`{:class="block3operators"}, and set to **sunset**.
 
-Drag a `switch backdrop`{:class="block3looks"} to under the `else`{:class="block3operators"}, and set this to Stars.
+Drag a `switch backdrop`{:class="block3looks"} to under the `else`{:class="block3operators"}, and set this to **Stars**.
 
 ```blocks3
 when green flag clicked
@@ -74,6 +83,6 @@ end
 --- /task ---
 
 --- task ---
-**Test:** Check that the backdrop changes `if`{:class="block3operators"} `mouse x`{:class="block3sensing"} is more than 230. 
+**Test:** Check that the backdrop changes when the mouse is more than 230. 
 --- /task ---
 

@@ -34,16 +34,24 @@ Choose down arrow from the menu.
 --- task ---
 Add a `say`{:class="block3looks"} block. 
 
-Choose costume name from the drop down menu. 
+```blocks3
+when [down arrow v] key pressed
++say (Hello!) for (1) seconds
+```
+--- /task ---
+
+--- task ---
+Drag costume number block and choose **name** from the drop down menu. 
 
 ```blocks3
 when [down arrow v] key pressed
 +say (costume [name v]) for (1) seconds
 ```
 
-![ALT TEXT](images/name.png)
---- /task ---
+**Tip:** drag ontop of the text in the say block
 
+![ALT TEXT](images/name.gif)
+--- /task ---
 
 
 --- task ---

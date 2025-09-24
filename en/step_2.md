@@ -85,6 +85,8 @@ forever
 --- task ---
 In the `minus`{:class="block3operators"} block type in **200** to the first field. 
 
+![animated gif of typing 200 into scratch block](images/200.gif)
+
 Drag an `abs of`{:class="block3operators"} block in the second.
 
 ```blocks3

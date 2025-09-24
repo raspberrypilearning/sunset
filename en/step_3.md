@@ -73,6 +73,7 @@ forever
 Add a `mouse x`{:class="block3sensing"}.
 
 Type the number **4** into to the empty fields. 
+
 ```blocks3
 when green flag clicked
 forever

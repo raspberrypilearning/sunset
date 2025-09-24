@@ -19,7 +19,7 @@ Light up the city
 </div><br>
 </html>
 
-### Select city
+### Select the city
 
 --- task ---
 Select the city sprite
@@ -29,7 +29,7 @@ Select the city sprite
 --- /task ---
 
 --- task ---
-Add a `green flag`{:class="block3events"} block to the code area and drag a `forever`{:class="block3control"} block under. 
+Add a `green flag`{:class="block3events"} block to the Code area and drag a `forever`{:class="block3control"} block under. 
 
 ```blocks3
 +when green flag clicked
@@ -41,15 +41,27 @@ Add a `green flag`{:class="block3events"} block to the code area and drag a `for
 --- task ---
 Add an `if else`{:class="block3control"} block inside the forever. 
 
-Add `mouse x`{:class="block3sensing"} and type in 230. 
+```blocks3
+when green flag clicked
+ forever
++ if <> then
+  else
+  end
+```
+--- /task ---
+
+
+--- task ---
+Add a `more than`{:class="block3operators"} block.
+
+Add `mouse x`{:class="block3sensing"} and type **230** into the fields. 
 
 ```blocks3
 when green flag clicked
  forever
- + if <(mouse x) > (230)> then
++ if <(mouse x) > (230)> then
   else
   end
-end
 ```
 --- /task ---
 
