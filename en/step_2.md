@@ -54,7 +54,7 @@ The blocks will snap together.
 ### Add motion
 
 --- task ---
-From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `Forever`{:class="block3control"} block. 
+From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `forever`{:class="block3control"} block. 
 
 ```blocks3
 when green flag clicked
@@ -71,24 +71,26 @@ In the second field drag in a `minus`{:class="block3operators"} block.
 ```blocks3
 when green flag clicked
 forever 
-go to x: (mouse x) y: (()-())
++go to x: (mouse x) y: (()-())
 ```
 --- /task ---
 
 
 **Tip:** drop the blocks in just below the empty field
 
-![ALT TEXT](images/mousex.gif)
+![animated gif of dragging and dropping scratch blocks](images/mousex.gif)
 
 ### Make an arc
 
 --- task ---
-In the `minus`{:class="block3operators"} block type in 200 to the first field, and drag in an `abs of`{:class="block3operators"} block in the second.
+In the `minus`{:class="block3operators"} block type in **200** to the first field. 
+
+Drag an `abs of`{:class="block3operators"} block in the second.
 
 ```blocks3
 when green flag clicked
 forever 
-go to x: (mouse x) y: ((200)-([abs v] of()))
++go to x: (mouse x) y: ((200)-([abs v] of()))
 ```
 --- /task ---
 
@@ -99,7 +101,7 @@ Drag and drop a `mouse x`{:class="block3motion"} into the `abs of`{:class="block
 ```blocks3
 when green flag clicked
 forever 
-go to x: (mouse x) y: ((200)-([abs v] of(mouse x)))
++go to x: (mouse x) y: ((200)-([abs v] of(mouse x)))
 ```
 --- /task ---
 

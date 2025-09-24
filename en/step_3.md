@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make the sun grow as it moves accross the sky
+Make the sun grow and shrink as it moves accross the sky
 </div>
 <div>
 
@@ -45,39 +45,39 @@ forever
 
 ### Make it grow
 --- task ---
-In the first field type in 50. 
+In the first field type in **50**. 
 
-In the second field add an `abs of block`{:class="block3operators"}.
+In the second field add an `abs of`{:class="block3operators"} block.
 
 ```blocks3
 when green flag clicked
 forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
- set size to ((50) + ([abs v] of ())) %
++ set size to ((50) + ([abs v] of ())) %
 ```
 --- /task ---
 
 
 --- task ---
-Add a `divide by`{:class="block3operators"} block to the `abs of`{:class="block3operators"}.
+Add a `divide`{:class="block3operators"} block to the `abs of`{:class="block3operators"}.
 
 ```blocks3
 when green flag clicked
 forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
- set size to ((50) + (([abs v] of ()) / ())) %
++ set size to ((50) + ([abs v] of (() / ()))) %
 ```
 --- /task ---
 
 --- task ---
 Add a `mouse x`{:class="block3sensing"}.
 
-Type the number 4 into to the empty fields. 
+Type the number **4** into to the empty fields. 
 ```blocks3
 when green flag clicked
 forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
- set size to ((50) + (([abs v] of (mouse x)) / (4))) %
++ set size to ((50) + ([abs v] of ((mouse x) / (4)))) %
 ```
 --- /task ---
 

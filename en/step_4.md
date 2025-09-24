@@ -27,17 +27,20 @@ Select the backdrop from the stage pane.
 
 --- task ---
 Drag a `when flag clicked`{:class="block3events"} block into the Code area.
-
+```blocks3
 + when green flag clicked
+```
 --- /task ---
 
 --- task ---
 From the `Looks`{:class="block3looks"} block menu drag a `switch backdrop`{:class="block3looks"} block.
 
+```blocks3
 when green flag clicked
 +switch backdrop to (sunset v)
+```
 
-Choose sunset from the dropdown menu.
+Choose **sunset** from the dropdown menu.
 
 ![ALT TEXT](images/menu.gif)
 --- /task ---
@@ -47,7 +50,7 @@ Choose sunset from the dropdown menu.
 --- task ---
 Add a `set color effect`{:class="block3looks"} block from the `Looks`{:class="block3looks"} menu.
 
-Add a `divided by`{:class="block3operators"} block. 
+Then add a `divide`{:class="block3operators"} block. 
 
 ```blocks3
 when green flag clicked
@@ -61,18 +64,20 @@ end
 --- task ---
 
 
-Drag and drop `mouse x`{:class="block3sensing"} into the first field and type 4 to the second. 
+Drag a `mouse x`{:class="block3sensing"} block into the first field.
+
+Type **4** to the second. 
 
 ```blocks3
 when green flag clicked
 switch backdrop to (sunset v)
 forever
-set [color v] effect to ((mouse x) / (4))
++ set [color v] effect to ((mouse x) / (4))
 end
 ```
 --- /task ---
 
 
 --- task ---
-**Test:** You can play aournd with the colours be chaning the number 4 until you find a colour range that you like
+**Test:** Check that the background changes. You can experiment by changing the number **4** until you find a colour range that you like.
 --- /task ---
