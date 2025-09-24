@@ -6,7 +6,7 @@ Use random to change the city
 </div>
 <div>
 
-![ADD](images/random.gif){:width="300px"}
+![sequence of cityscapes](images/random.gif){:width="300px"}
 
 </div>
 </div>
@@ -17,6 +17,10 @@ Use random to change the city
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
+
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 
 ### Change cities
 
@@ -25,7 +29,7 @@ Add a `when key pressed`{:class="block3events"} event, and choose up arrow on th
 ```blocks3
 +when [up arrow v] key pressed
 ```
-![ALT TEXT](images/up.png)
+![Scratch dropdown menu](images/up.png)
 --- /task ---
 
 
@@ -42,7 +46,7 @@ when [up arrow v] key pressed
 --- /task---
 
 --- task ---
-Change the numbers so they are between 1 and 52. 
+Change the numbers so they are between **1** and **52**. 
 
 ```blocks3
 when [up arrow v] key pressed
@@ -52,7 +56,7 @@ when [up arrow v] key pressed
 
 **TIP:** To see all the city costumes click on the costume tab
 
-![ALT TEXT](images/costumes.png)
+![screenshot of Scratch cosume tab, and paint editor](images/costumes.png)
 
 --- task ---
 **Test:** check that random cities show when clicking the up arrow. 

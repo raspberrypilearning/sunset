@@ -17,6 +17,10 @@ Switch cities
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
+
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 
 ### Ask which city?
 
@@ -58,7 +62,7 @@ ask [Which city?] and wait
 
 **Tip:** drag the `answer`{:class="block3sensing"} block over the switch costume menu to insert it
 
-![ALT TEXT](images/switch.gif)
+![Animated gif of choosing from a scratch menu](images/switch.gif)
 
 
 **Test:** check that the ask shows when space pressed. Type a city and check that it changes.

@@ -6,7 +6,7 @@ Make the sun grow and shrink as it moves accross the sky
 </div>
 <div>
 
-![ADD](images/grow.gif){:width="300px"}
+![Animated gif of sun growing and shrinking accorss a cityscape](images/grow.gif){:width="300px"}
 
 </div>
 </div>
@@ -17,6 +17,10 @@ Make the sun grow and shrink as it moves accross the sky
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
+
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 
 ### Set size
 
@@ -44,6 +48,7 @@ forever
 --- /task ---
 
 ### Make it grow
+
 --- task ---
 In the first field type in **50**. 
 

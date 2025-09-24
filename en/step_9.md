@@ -6,7 +6,7 @@ Say the name of the city you are in.
 </div>
 <div>
 
-![ADD](images/where.png){:width="300px"}
+![Cityscape with where in a speech bubble](images/where.png){:width="300px"}
 
 </div>
 </div>
@@ -17,6 +17,10 @@ Say the name of the city you are in.
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
+
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 
 
 ### Show the city
@@ -45,7 +49,7 @@ when [down arrow v] key pressed
 
 **Tip:** drag ontop of the text in the say block, then choose from the menu
 
-![ALT TEXT](images/name.gif)
+![Animated scratch blocks](images/name.gif)
 
 --- task ---
 **Test:** press up arrow and check the name of the city costume shows in a speech bubble

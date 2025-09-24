@@ -6,7 +6,7 @@ Make the sky change colour
 </div>
 <div>
 
-![ADD](images/colour.gif){:width="300px"}
+![Aniamted gif of colours of sky changing behind a cityscape](images/colour.gif){:width="300px"}
 
 </div>
 </div>
@@ -17,12 +17,16 @@ Make the sky change colour
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
+
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 
 ### Switch backdrop
 --- task ---
 Select the backdrop from the stage pane. 
 
-![ALT TEXT](images/backdrop.png)
+![Scratch backdrop](images/backdrop.png)
 --- /task ---
 
 --- task ---
@@ -43,7 +47,7 @@ when green flag clicked
 
 Choose **sunset** from the dropdown menu.
 
-![ALT TEXT](images/menu.gif)
+![Animated gif of choosing from menu in scratch](images/menu.gif)
 --- /task ---
 
 ### Set colour

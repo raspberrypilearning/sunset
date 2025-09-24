@@ -6,7 +6,7 @@ Make the sun move across the sky
 </div>
 <div>
 
-![ADD](images/sun.gif){:width="300px"}
+![Animated gif of sun moving accross city](images/sun.gif){:width="300px"}
 
 </div>
 </div>
@@ -17,7 +17,10 @@ Make the sun move across the sky
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
 
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 ### Get started
 
 --- task ---
@@ -26,7 +29,7 @@ Open the [starter project](http://rpf.io/sunset-go){:target="_blank"}.
 
 
 --- task ---
-Select the **Sun** sprite ![ALT TEXT](images/sun-sprite.png)
+Select the **Sun** sprite ![Sun sprite in scratch](images/sun-sprite.png)
 --- /task ---
 
 

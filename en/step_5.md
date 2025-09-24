@@ -6,7 +6,7 @@ Switch to a night sky
 </div>
 <div>
 
-![ADD](images/star.png){:width="300px"}
+![Night backdrop behind a dark cityscape](images/star.png){:width="300px"}
 
 </div>
 </div>
@@ -17,6 +17,10 @@ Switch to a night sky
 </iframe>
 </div><br>
 </html>
+<div style="text-align: center; margin-top: 1em;">
+
+Play, pause, make. Follow the project on our [YouTube](9) playlist!
+</div>
 
 ### Add an "if else"
 
