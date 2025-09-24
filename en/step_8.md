@@ -25,9 +25,10 @@ Add a `when key pressed`{:class="block3events"} event, and choose up arrow on th
 ```blocks3
 +when [up arrow v] key pressed
 ```
+![ALT TEXT](images/up.png)
 --- /task ---
 
-![ALT TEXT](images/up.png)
+
 
 --- task ---
 Add a `switch costume`{:class="block3looks"} block. 
