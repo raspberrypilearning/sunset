@@ -36,8 +36,8 @@ Select the city sprite
 Add a `green flag`{:class="block3events"} block to the Code area and drag a `forever`{:class="block3control"} block under. 
 
 ```blocks3
-+ when green flag clicked
-+ forever
+when green flag clicked
+forever
 ```
 --- /task ---
 
