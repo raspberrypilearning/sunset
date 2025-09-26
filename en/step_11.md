@@ -10,10 +10,5 @@
 </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 1em;">
-
-Print our NEW [visual-first](resources/sunset-visual.pdf){:target="_blank"} step-by-step guide!
-</div>
-
 
 
