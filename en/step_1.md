@@ -22,7 +22,7 @@ Follow along the project on our [YouTube](https://projects.raspberrypi.org/en/pr
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Print our [visual-first]([resources/sunset-visual.pdf](https://projects-static.raspberrypi.org/projects/sunset/e7c4e889aafdaed5497d8bfb6d1499feab92df70/en/resources/sunset-visual.pdf)){:target="_blank"} step-by-step guide!
+Print our [visual-first](https://projects-static.raspberrypi.org/projects/sunset/e7c4e889aafdaed5497d8bfb6d1499feab92df70/en/resources/sunset-visual.pdf){:target="_blank"} step-by-step guide!
 </p>
 
 
