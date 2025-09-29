@@ -1,11 +1,11 @@
 ## Challenge
 
 --- task ---
-Try adding Text to speeach for the city names. You could do this by using one of the scratch extensions.
+Try adding Text to speech for the city names. You could do this by using one of the scratch extensions.
 --- /task ---
 
 --- task ---
-Could you Aadd more to the night sky? Try making the sun become a moon when it is dark.
+Could you add more to the night sky? Try making the sun become a moon when it is dark.
 --- /task ---
 
 --- task ---
