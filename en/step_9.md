@@ -47,7 +47,7 @@ when [down arrow v] key pressed
 
 --- /task ---
 
-**Tip:** drag ontop of the text in the say block, then choose from the menu
+**Tip:** drag on top of the text in the say block, then choose from the menu
 
 ![Animated scratch blocks](images/name.gif)
 
