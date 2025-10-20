@@ -37,7 +37,7 @@ Drag a `when flag clicked`{:class="block3events"} block into the Code area.
 --- /task ---
 
 --- task ---
-From the `Looks`{:class="block3looks"} block menu drag a `switch backdrop`{:class="block3looks"} block.
+From the `Looks`{:class="block3looks"} block menu, drag a `switch backdrop`{:class="block3looks"} block.
 
 ```blocks3
 when green flag clicked
