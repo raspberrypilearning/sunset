@@ -45,7 +45,7 @@ when [space v] key pressed
 --- /task ---
 
 
-**Tip:** delete the text and then type
+**Tip:** delete the text and then type.
 
 ![animated gif of typing in scratch block](images/type.gif)
 
@@ -60,9 +60,9 @@ ask [Which city?] and wait
 ```
 --- /task ---
 
-**Tip:** drag the `answer`{:class="block3sensing"} block over the switch costume menu to insert it
+**Tip:** drag the `answer`{:class="block3sensing"} block over the switch costume menu to insert it.
 
 ![Animated gif of choosing from a scratch menu](images/switch.gif)
 
 
-**Test:** check that the ask shows when space pressed. Type a city and check that it changes.
+**Test:** check that the ask shows when space is pressed. Type a city and check that it changes.
