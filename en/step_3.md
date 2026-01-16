@@ -25,7 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Set size
 
 --- task ---
-From the `looks`{:class="block3looks"} menu add the `set size`{:class="block3looks"} block.
+From the `looks`{:class="block3looks"} menu, add the `set size`{:class="block3looks"} block.
 
 ```blocks3
 when green flag clicked
@@ -50,9 +50,9 @@ forever
 ### Make it grow
 
 --- task ---
-In the first field type in **50**. 
+In the first field, type in **50**. 
 
-In the second field add an `abs of`{:class="block3operators"} block.
+In the second field, add an `abs of`{:class="block3operators"} block.
 
 ```blocks3
 when green flag clicked
@@ -88,5 +88,5 @@ forever
 --- /task ---
 
 --- task ---
-**Test:** check that the sun grows and shriks. Experiment with diffenrt numbers to divide by to how you want to change the size
+**Test:** check that the sun grows and shrinks. Experiment with different numbers to divide by to change the size.
 --- /task ---

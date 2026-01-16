@@ -26,7 +26,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Show the city
 
 --- task ---
-From the `events`{:class="block3events"} menu drag a `when key pressed`{:class="block3events"} block.
+From the `events`{:class="block3events"} menu, drag a `when key pressed`{:class="block3events"} block.
 
 Choose down arrow from the menu.
 
@@ -47,10 +47,10 @@ when [down arrow v] key pressed
 
 --- /task ---
 
-**Tip:** drag on top of the text in the say block, then choose from the menu
+**Tip:** drag on top of the text in the say block, then choose from the menu.
 
 ![Animated scratch blocks](images/name.gif)
 
 --- task ---
-**Test:** press up arrow and check the name of the city costume shows in a speech bubble
+**Test:** press up arrow and check the name of the city costume shows in a speech bubble.
 --- /task ---

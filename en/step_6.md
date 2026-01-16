@@ -26,7 +26,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Select the city
 
 --- task ---
-Select the city sprite
+Select the city sprite.
 
 ![ALT TEXT](images/city-sprite.png)
 
@@ -88,7 +88,7 @@ end
 --- /task ---
 
 --- task ---
-Add another `set effect`{:class="block3looks"} block and choose **color** fromt the menu. 
+Add another `set effect`{:class="block3looks"} block and choose **color** from the menu. 
 
 Type **255** into the field.
 
@@ -108,6 +108,6 @@ end
 --- /task ---
 
 --- task ---
-**Test:** check the brightness and colour changes to make the city light when it is dark
+**Test:** check the brightness and colour changes to make the city light when it is dark.
 --- /task ---
 

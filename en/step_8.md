@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Use random to change the city
+Use random to change the city.
 </div>
 <div>
 
@@ -25,7 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Change cities
 
 --- task ---
-Add a `when key pressed`{:class="block3events"} event, and choose up arrow on the menu
+Add a `when key pressed`{:class="block3events"} event, and choose up arrow on the menu.
 ```blocks3
 +when [up arrow v] key pressed
 ```
@@ -37,7 +37,7 @@ Add a `when key pressed`{:class="block3events"} event, and choose up arrow on th
 --- task ---
 Add a `switch costume`{:class="block3looks"} block. 
 
-Insert a `pick random number`{:class="block3operators"} into the empty field
+Insert a `pick random number`{:class="block3operators"} into the empty field.
 
 ```blocks3
 when [up arrow v] key pressed
@@ -54,7 +54,7 @@ when [up arrow v] key pressed
 ```
 --- /task ---
 
-**TIP:** To see all the city costumes click on the costume tab
+**TIP:** To see all the city costumes, click on the costume tab.
 
 ![screenshot of Scratch cosume tab, and paint editor](images/costumes.png)
 

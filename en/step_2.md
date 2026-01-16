@@ -69,7 +69,7 @@ forever
 --- task ---
 The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3sensing"}. 
 
-In the second field drag in a `minus`{:class="block3operators"} block.
+In the second field, drag in a `minus`{:class="block3operators"} block.
 
 ```blocks3
 when green flag clicked
