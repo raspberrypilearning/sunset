@@ -25,16 +25,19 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Change cities
 
 --- task ---
+
 Add a `when key pressed`{:class="block3events"} event, and choose up arrow on the menu.
 ```blocks3
 +when [up arrow v] key pressed
 ```
 ![Scratch dropdown menu](images/up.png)
+
 --- /task ---
 
 
 
 --- task ---
+
 Add a `switch costume`{:class="block3looks"} block. 
 
 Insert a `pick random number`{:class="block3operators"} into the empty field.
@@ -46,12 +49,14 @@ when [up arrow v] key pressed
 --- /task---
 
 --- task ---
+
 Change the numbers so they are between **1** and **52**. 
 
 ```blocks3
 when [up arrow v] key pressed
 +switch costume to (pick random (1) to (52))
 ```
+
 --- /task ---
 
 **TIP:** To see all the city costumes, click on the costume tab.
@@ -59,6 +64,8 @@ when [up arrow v] key pressed
 ![screenshot of Scratch cosume tab, and paint editor](images/costumes.png)
 
 --- task ---
+
 **Test:** check that random cities show when clicking the up arrow. 
+
 --- /task ---
 

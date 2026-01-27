@@ -25,6 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Set size
 
 --- task ---
+
 From the `looks`{:class="block3looks"} menu, add the `set size`{:class="block3looks"} block.
 
 ```blocks3
@@ -33,10 +34,12 @@ forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
 + set size to () %
 ```
+
 --- /task ---
 
 
 --- task ---
+
 Add a `plus`{:class="block3operators"} block into the set size.
 
 ```blocks3
@@ -45,11 +48,13 @@ forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
 + set size to (() + ()) %
 ```
+
 --- /task ---
 
 ### Make it grow
 
 --- task ---
+
 In the first field, type in **50**. 
 
 In the second field, add an `abs of`{:class="block3operators"} block.
@@ -60,10 +65,12 @@ forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
 + set size to ((50) + ([abs v] of ())) %
 ```
+
 --- /task ---
 
 
 --- task ---
+
 Add a `divide`{:class="block3operators"} block to the `abs of`{:class="block3operators"}.
 
 ```blocks3
@@ -72,9 +79,11 @@ forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
 + set size to ((50) + ([abs v] of (() / ()))) %
 ```
+
 --- /task ---
 
 --- task ---
+
 Add a `mouse x`{:class="block3sensing"}.
 
 Type the number **4** into to the empty fields. 
@@ -85,8 +94,11 @@ forever
  go to x: (mouse x) y: ((200) - ([abs v] of (mouse x)))
 + set size to ((50) + ([abs v] of ((mouse x) / (4)))) %
 ```
+
 --- /task ---
 
 --- task ---
+
 **Test:** check that the sun grows and shrinks. Experiment with different numbers to divide by to change the size.
+
 --- /task ---

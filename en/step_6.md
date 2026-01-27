@@ -26,6 +26,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Select the city
 
 --- task ---
+
 Select the city sprite.
 
 ![ALT TEXT](images/city-sprite.png)
@@ -33,16 +34,19 @@ Select the city sprite.
 --- /task ---
 
 --- task ---
+
 Add a `green flag`{:class="block3events"} block to the Code area and drag a `forever`{:class="block3control"} block under. 
 
 ```blocks3
 when green flag clicked
 forever
 ```
+
 --- /task ---
 
 
 --- task ---
+
 Add an `if else`{:class="block3control"} block inside the forever. 
 
 ```blocks3
@@ -52,10 +56,12 @@ when green flag clicked
   else
   end
 ```
+
 --- /task ---
 
 
 --- task ---
+
 Add a `more than`{:class="block3operators"} block.
 
 Add `mouse x`{:class="block3sensing"} and type **230** into the fields. 
@@ -67,11 +73,13 @@ when green flag clicked
   else
   end
 ```
+
 --- /task ---
 
 ### Set effect
 
 --- task ---
+
 Add the `set effect`{:class="block3looks"} block and selcet **brightness** from the menu. 
 
 Type **100** into the field. 
@@ -85,9 +93,11 @@ when green flag clicked
   end
 end
 ```
+
 --- /task ---
 
 --- task ---
+
 Add another `set effect`{:class="block3looks"} block and choose **color** from the menu. 
 
 Type **255** into the field.
@@ -105,9 +115,12 @@ when green flag clicked
   end
 end
 ```
+
 --- /task ---
 
 --- task ---
+
 **Test:** check the brightness and colour changes to make the city light when it is dark.
+
 --- /task ---
 

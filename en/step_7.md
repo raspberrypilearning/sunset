@@ -25,14 +25,17 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Ask which city?
 
 --- task ---
+
 Drag the `when space key pressed`{:class="block3events"} from the event blocks.
 
 ```blocks3
 +when [space v] key pressed
 ```
+
 --- /task ---
 
 --- task ---
+
 Add the `ask and wait`{:class="block3sensing"} block.
 
 Type in **"Which city?"** into the field
@@ -50,6 +53,7 @@ when [space v] key pressed
 ![animated gif of typing in scratch block](images/type.gif)
 
 --- task ---
+
 Drag a `switch costume`{:class="block3looks"} block under.
 
 Drag the `answer`{:class="block3sensing"} block in the empty field.
@@ -58,6 +62,7 @@ when [space v] key pressed
 ask [Which city?] and wait
 +switch costume to (answer)
 ```
+
 --- /task ---
 
 **Tip:** drag the `answer`{:class="block3sensing"} block over the switch costume menu to insert it.
