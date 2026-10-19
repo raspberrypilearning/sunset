@@ -56,6 +56,6 @@ when [down arrow v] key pressed
 
 --- task ---
 
-**Test:** press up arrow and check the name of the city costume shows in a speech bubble.
+**Test:** press down arrow and check the name of the city costume shows in a speech bubble.
 
 --- /task ---

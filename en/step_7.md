@@ -6,7 +6,7 @@ Switch cities
 </div>
 <div>
 
-![ADD](images/which.png){:width="300px"}
+![The city sprite asks 'Which city?' with a text box for the player's answer.](images/which.png){:width="300px"}
 
 </div>
 </div>

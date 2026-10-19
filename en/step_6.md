@@ -7,7 +7,7 @@ Light up the city
 </div>
 <div>
 
-![ADD](images/bright.png){:width="300px"}
+![White city skyline against a dark, starry sky.](images/bright.png){:width="300px"}
 
 </div>
 </div>
@@ -29,7 +29,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 Select the city sprite.
 
-![ALT TEXT](images/city-sprite.png)
+![The city sprite selected in the Sprite pane.](images/city-sprite.png)
 
 --- /task ---
 
