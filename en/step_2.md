@@ -24,26 +24,33 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Get started
 
 --- task ---
+
 Open the [starter project](http://rpf.io/sunset-go){:target="_blank"}.
+
 --- /task ---
 
 
 --- task ---
+
 Select the **Sun** sprite ![Sun sprite in scratch](images/sun-sprite.png)
+
 --- /task ---
 
 
 --- task ---
+
 From the `Events`{:class="block3events"} block menu, drag the `When flag clicked`{:class="block3events"} block to the Code area.
 
 ```blocks3
 +when green flag clicked
 ```
+
 --- /task ---
 
 
 
 --- task ---
+
 From the `Control`{:class="block3control"} menu drag a `forever`{:class="block3control"} block under the `when this sprite clicked`{:class="block3events"}. 
 
 ```blocks3
@@ -52,11 +59,13 @@ when green flag clicked
 ```
 
 The blocks will snap together.
+
 --- /task ---
 
 ### Add motion
 
 --- task ---
+
 From the `Motion`{:class="block3motion"} menu drag an `go to x: y:`{:class="block3motion"} block inside the `forever`{:class="block3control"} block. 
 
 ```blocks3
@@ -64,9 +73,11 @@ when green flag clicked
 forever 
 +go to x: () y: ()
 ```
+
 --- /task ---
 
 --- task ---
+
 The `go to x: y:`{:class="block3motion"} block has two empty fields. In the first drag in a `mouse x`{:class="block3sensing"}. 
 
 In the second field, drag in a `minus`{:class="block3operators"} block.
@@ -76,6 +87,7 @@ when green flag clicked
 forever 
 +go to x: (mouse x) y: (()-())
 ```
+
 --- /task ---
 
 
@@ -86,6 +98,7 @@ forever
 ### Make an arc
 
 --- task ---
+
 In the `minus`{:class="block3operators"} block type in **200** to the first field. 
 
 ![animated gif of typing 200 into scratch block](images/200.gif)
@@ -97,21 +110,26 @@ when green flag clicked
 forever 
 +go to x: (mouse x) y: ((200)-([abs v] of()))
 ```
+
 --- /task ---
 
 
 
 --- task ---
+
 Drag and drop a `mouse x`{:class="block3motion"} into the `abs of`{:class="block3operators"} block.
 ```blocks3
 when green flag clicked
 forever 
 +go to x: (mouse x) y: ((200)-([abs v] of(mouse x)))
 ```
+
 --- /task ---
 
 
 
 --- task ---
+
 **Test:** click the green flag and check that the sun moves.
+
 --- /task ---

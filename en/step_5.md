@@ -25,6 +25,7 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 ### Add an "if else"
 
 --- task ---
+
 Add an `if else`{:class="block3control"} block.
 
 ```blocks3
@@ -41,6 +42,7 @@ end
 --- /task ---
 
 --- task ---
+
 Add a `less than`{:class="block3operators"} block. 
 
 ![animated gif of dropping a less than block](images/if.gif)
@@ -63,11 +65,13 @@ else
 end
 end
 ```
+
 --- /task ---
 
 ### Switch backdrop
 
 --- task ---
+
 Drag a `switch backdrop`{:class="block3looks"}, and set to **sunset**.
 
 Drag a `switch backdrop`{:class="block3looks"}, and set this to **Stars**.
@@ -84,9 +88,12 @@ else
 end
 end
 ```
+
 --- /task ---
 
 --- task ---
+
 **Test:** Check that the backdrop changes when the mouse is more than **230**. 
+
 --- /task ---
 

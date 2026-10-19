@@ -24,19 +24,24 @@ Play, pause, make. Follow the project on our [YouTube](10) playlist!
 
 ### Switch backdrop
 --- task ---
+
 Select the backdrop from the stage pane. 
 
 ![Scratch backdrop](images/backdrop.png)
+
 --- /task ---
 
 --- task ---
+
 Drag a `when flag clicked`{:class="block3events"} block into the Code area.
 ```blocks3
 + when green flag clicked
 ```
+
 --- /task ---
 
 --- task ---
+
 From the `Looks`{:class="block3looks"} block menu, drag a `switch backdrop`{:class="block3looks"} block.
 
 ```blocks3
@@ -48,11 +53,13 @@ when green flag clicked
 Choose **sunset** from the dropdown menu.
 
 ![Animated gif of choosing from menu in scratch](images/menu.gif)
+
 --- /task ---
 
 ### Set colour
 
 --- task ---
+
 Add a `set color effect`{:class="block3looks"} block from the `Looks`{:class="block3looks"} menu.
 
 Then add a `divide`{:class="block3operators"} block. 
@@ -64,6 +71,7 @@ forever
 + set [color v] effect to (() / ())
 end
 ```
+
 --- /task ---
 
 --- task ---
@@ -80,9 +88,12 @@ forever
 + set [color v] effect to ((mouse x) / (4))
 end
 ```
+
 --- /task ---
 
 
 --- task ---
+
 **Test:** Check that the background changes. You can experiment by changing the number **4** until you find a colour range that you like.
+
 --- /task ---
